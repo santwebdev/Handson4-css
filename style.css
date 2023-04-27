@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lora:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.siding{
+    margin-right: 20px;
+    margin-bottom: 130px;
+}
+.first{
+    border: 2px solid gainsboro;
+    background-image: linear-gradient(to right ,red, green ,yellow );
+    height: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+    /* bottom: 10px; */
+}
+h3{
+    width: 165px;
+    position: relative;
+    bottom: 15px;
+    background-color: rgb(8, 168, 24);
+    position: relative;
+    left: 550px;
+}
+.head{
+    border: 3px solid brown;
+    height: 55px;
+    width: 700px;
+    background-color: rgb(157, 199, 213);
+    position: relative;
+    left: 300px;
+    top: 10px;
+    border-radius: 15px;
+}
+.shree{
+    padding-left: 40px;
+}
+ul{
+    display: inline-block;
+    position: relative;
+    left: 270px;
+    bottom: 10px;
+    font-size: small;
+
+}
+/* .shree{
+    margin-right: 400px
+ } */
+.third{
+    background-color: aquamarine;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    height: 157px;
+    row-gap: none;
+    /* gap: 20px; */
+    column-gap: 10px;
+    position: relative;
+    top: 20px;
+}
+.block{
+    height: 65px;
+    border: 2px solid black;
+    background-color: rgba(30, 249, 249, 0.888);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.four{
+    grid-column: 2/3;
+   
+}
+.centerr{
+    height: 45px;
+    position: relative;
+    top: 50px;
+    border: 2px solid gainsboro;
+    /* background-image: radial-gradient(red,yellow); */
+    background-image: linear-gradient(to right, red,yellow , red);
+}
+.col{
+    text-align: center;
+    text-decoration: underline rgb(246, 142, 142) ;
+    font-weight: bolder;
+    position: relative;
+    bottom: 15px;
+}
+.radial{
+    height: 325px;
+    border: 2px solid gainsboro;
+    background-image: radial-gradient(blue , rgb(0, 255, 170));
+    position: relative;
+    top: 70px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.items{
+    height: 120px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: yellow;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    /* justify-content: space-evenly; */
+}
+#name{
+    text-align: center;
+    text-decoration: underline;
+    line-height: 28px;
+    font-weight: bold;
+    color: brown;
+}
+/* starting for the big block of the websiteS */
+
+.boss{
+    border: 2px solid gray;
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 100px 156px 30px;
+    gap: 20px;
+    height: 310px;
+    position: relative;
+    top: 100px;
+}
+.base{
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.bhole{
+    background-color:rgb(218, 7, 7);
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.mole{
+    margin-top:-12px;
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 15px;
+
+}
+.sole{
+     margin-top:-12px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 58px; */
+    background-color: rgb(78, 157, 253);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.dhole{
+    margin-top:-12px;
+    /* margin-bottom: 58px; */
+    background-color: rgb(9, 9, 193);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 80px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.hale{ 
+    margin-top: -15px;
+    /* margin-bottom: 50px; */
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: orange;
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+}
+.gale{
+    margin-top: -12px;
+    /* margin-bottom: 50px; */
+    height: 220px;
+    background-color: black;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    /* font-size: 18px; */
+    color: white;
+    font-weight: bolder;
+}
+span{
+    text-decoration: underline;
+}
+.blackk{
+    position: relative;
+    right: 10px;
+}
+.fale{
+    background-color: rgb(146, 242, 242);
+    height: 20px;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -75px;
+}
